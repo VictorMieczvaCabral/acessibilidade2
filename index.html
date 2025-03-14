@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Re:Zero - Mundo e Personagens</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5 bg-dark text-white">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/re_zero_logo.png" class="nav-img" alt="Re:Zero Logo" loading="lazy">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#personagens">Personagens</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+            </ul>
+
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio" class="text-center my-5">
+            <h1 class="display-3 fw-bold">Bem-vindo ao Universo de Re:Zero</h1>
+            <p class="lead">Explore o mundo de fantasia, mistério e drama que conquistou fãs ao redor do mundo.</p>
+            <img src="img/fundo.jpg" alt="Imagem Principal" class="img-fluid rounded">
+            </div>
+            <div class="col-5" class="text-center my-5"></div>
+                <h2>O que é Re:zero?</h2>
+                <p class="p-2">Re:Zero kara Hajimeru Isekai Seikatsu (no Brasil: Re:Zero – Começando
+                    uma Vida em Outro Mundo) é uma série de light novel escrita por Tappei Nagatsuki e ilustrada por
+                    Shinichirou Otsuka. A história se centra em Subaru Natsuki, um hikikomori que de repente se vê
+                    transportado para outro mundo enquanto voltava para casa após sair de uma loja de conveniência. A
+                    série foi inicialmente serializada no website Shōsetsuka ni Narō a partir de 2012. Trinta e nove
+                    volumes foram publicados pela editora Media Factory desde 25 de janeiro de 2014, com a impressão da
+                    MF Bunko J</p>
+            </div>
+        </section>
+
+        <!-- Seção de Personagens -->
+        <section id="personagens" class="my-5">
+            <h2 class="text-center">Personagens Principais</h2>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="img/Subaru.webp" alt="Subaru Natsuki" class="img-fluid rounded">
+                    <h3>Subaru Natsuki</h3>
+                    <p>O protagonista, com a habilidade "Retorno pela Morte".</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Emilia.webp" alt="Emilia" class="img-fluid rounded">
+                    <h3>Emilia</h3>
+                    <p>Meia-elfa candidata ao trono de Lugnica, alvo de preconceito.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Rem.webp" alt="Rem" class="img-fluid rounded">
+                    <h3>Rem</h3>
+                    <p>Oni leal e poderosa, profundamente ligada a Subaru.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Ram.webp" alt="Ram" class="img-fluid rounded">
+                    <h4>Ram</h4>
+                    <p>Irmã de Rem, exímia usuária de magia e extremamente leal a Roswaal.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Beatrice.webp" alt="Beatrice" class="img-fluid rounded">
+                    <h4>Beatrice</h4>
+                    <p>Guardião da biblioteca do Roswaal, possui vasto conhecimento mágico.</p>
+                </div>
+            </div>
+
+        <!-- Seção de Antagonistas -->
+        <section id="culto" class="my-5">
+            <h3 class="text-center">Culto da Bruxa</h3>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="img/Petelgeuse.webp" alt="Petelgeuse" class="img-fluid rounded">
+                    <h4>Petelgeuse Romanee-Conti</h4>
+                    <p>Arcebispo da Preguiça, enlouquecido pelo fanatismo.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Capella.webp" alt="Capella" class="img-fluid rounded">
+                    <h4>Capella Emerada Lugnica</h4>
+                    <p>Arcebispa da Luxúria, manipuladora de carne.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Lye.webp" alt="Lye" class="img-fluid rounded">
+                    <h4>Lye Batenkaitos</h4>
+                    <p>Arcebispo da Gula, devorador de memórias.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Regulus.webp" alt="Regulus" class="img-fluid rounded">
+                    <h4>Regulus Corneas</h4>
+                    <p>Arcebispo da Ganância, capaz de parar o tempo em seu corpo.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/Sirius.webp" alt="Sirius" class="img-fluid rounded">
+                    <h4>Sirius Romanee-Conti</h4>
+                    <p>Arcebispa da Ira, pode compartilhar dor com os outros.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Site dedicado aos fãs de Re:Zero. Imagens e informações pertencem aos seus respectivos
+            criadores.</p>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+        <script src="script.js"></script>
+      
+    </body>
+    
+    </html>
